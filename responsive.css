@@ -1,0 +1,255 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    .banner-section .container .row .left {
+        text-align: center;
+        padding: 15px 36px 34px;
+    }
+    .banner-section .container .row .left .sub-title {
+        line-height: 20px;
+    }
+    .banner-section .container .row .left h1 {
+        font-size: 42px;
+        line-height: 42px;
+    }
+    .banner-section .container .row .left .para {
+        font-size: 16px;
+        line-height: 22px;
+        padding: 0px 45px;
+    }
+    .banner-section .container .row .left .started a {
+        padding: 3% 6%;
+        
+    }
+    .banner-section .container .row .img-frame img {
+        width: 95%;
+        height: 100%;
+        margin: 30px 8px;
+    }
+    .feature-section .container .row .f-card {
+        margin: 10px 5px 20px;
+    }
+    .feature-section .container .row .f-card h4 {
+        font-size: 24px;
+        padding: 14px 0px 0px 0px;
+        
+    }
+    .feature-section .container .row .f-card p {
+        line-height: 16px;
+    }
+    .course-section {
+        margin-bottom: 50px;
+    }
+    .course-section .container .row .course-inner {
+       margin: 15px 25px;  
+    }
+    .course-section .container .row .course-inner .content {
+       text-align: center;
+
+    }
+    .course-section .container .row .course-inner .content h5 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .course-section .container .row .course-inner .content p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .course-section .container .row .course-inner .content .buy-course a {
+        padding: 3% 6.5%;
+        font-size: 16px;
+    
+    }
+    .course-section .container .row .course-inner .date-seat {
+        font-size: 16px;
+    }
+    .testimonial-section {
+        text-align: center;
+    }
+    .testimonial-section .container .row h2 {
+        font-size: 32px;
+        line-height: 38px;  
+        margin: 0px 0px 30px;
+    }
+    .testimonial-section .container .row .t-img {
+        text-align: center;
+        padding-right: 0px;
+    }
+    .testimonial-section .container .row p {
+        padding: 0 33px;
+        width: 100%;
+        line-height: 25px;
+        font-size: 16px;
+        margin: 30px 0 -50px;
+    }
+    footer .container-lg .row .left {
+        width: 100%;
+        text-align: center;
+        padding: 0px 120px 20px;
+    }
+    footer .container-lg .row ul {
+        padding-left: 40px;
+    }
+    .copylaw {
+        padding: 40px 68px 20px;
+    }
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+    .banner-section .container .row .left {
+        text-align: center;
+        padding: 15px 36px 34px;
+    }
+    .banner-section .container .row .left .sub-title {
+        line-height: 20px;
+    }
+    .banner-section .container .row .left h1 {
+        font-size: 30px;
+        line-height: 34px;
+    }
+    .banner-section .container .row .left .para {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .banner-section .container .row .left .started a {
+        padding: 3.5% 5%;
+        
+    }
+    .banner-section .container .row .img-frame img {
+        width: 95%;
+        height: 100%;
+        margin: 3px 8px;
+    }
+    .feature-section .container .row .f-card {
+        margin: 10px 25px 20px;
+    }
+    .feature-section .container .row .f-card h4 {
+        font-size: 20px;
+        padding: 14px 0px 0px 0px;
+        
+    }
+    .feature-section .container .row .f-card p {
+        line-height: 14px;
+    }
+    .para .container .row h2 {
+        font-size: 30px;
+        line-height: 38px;
+        margin: -60px 0px;
+        
+    }
+    .course-section {
+        margin-bottom: 50px;
+    }
+    .course-section .container .row .course-inner {
+       margin: 15px 25px;  
+    }
+    .course-section .container .row .course-inner .content {
+       text-align: center;
+       margin-top: -10px;
+    }
+    .course-section .container .row .course-inner .content h5 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .course-section .container .row .course-inner .content p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .course-section .container .row .course-inner .content .buy-course a {
+        padding: 3% 6.5%;
+        font-size: 15px;
+    
+    }
+    .course-section .container .row .course-inner .date-seat {
+        font-size: 13px;
+        margin: -16px 0 -10px;
+    }
+    .testimonial-section {
+        text-align: center;
+    }
+    .testimonial-section .container .row h2 {
+        font-size: 28px;
+        line-height: 36px;  
+        margin: 0px 0px 30px;
+    }
+    .testimonial-section .container .row .t-img {
+        text-align: center;
+        padding-right: 0px;
+    }
+    .testimonial-section .container .row p {
+        padding: 0 33px;
+        width: 100%;
+        line-height: 24px;
+        font-size: 14px;
+        margin: 30px 0 -50px;
+    }
+    footer {
+        padding-top: 50px;
+    }
+    footer .container-lg .row .left {
+        width: 100%;
+        padding: 0 20px 20px;
+    }
+    footer .container-lg .row ul {
+        padding-left: 7px;
+    }
+    .copylaw {
+        padding: 40px 68px 20px;
+    }
+  }
